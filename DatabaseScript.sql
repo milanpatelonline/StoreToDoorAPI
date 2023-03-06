@@ -452,11 +452,16 @@ UpdateOn=GETDATE() Where UserId=@UserId
 
 If(@RoleId>0)
 Begin
-update UserRole set RoleId=@RoleId where UserId=@UserId
+	if((select count(*) from UserRole where UserId=@UserId)>0)
+	Begin
+		update UserRole set RoleId=@RoleId where UserId=@UserId
+	End
+	Else
+	Begin
+		Insert into UserRole(RoleId,UserId) values (@RoleId,@UserId)
+	End		
 End
-
 Select 1
-
 END
 GO
 USE [master]
