@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreToDoorAPI", "StoreToDoorAPI\StoreToDoorAPI.csproj", "{37D24D3A-265F-4A1C-9BBA-054D4444B424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreToDoorAPI", "StoreToDoorAPI\StoreToDoorAPI.csproj", "{37D24D3A-265F-4A1C-9BBA-054D4444B424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreToDoor.Business", "StoreToDoor.Business\StoreToDoor.Business.csproj", "{0B99B659-BC32-4572-8E45-DB806E9B3F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreToDoor.Business", "StoreToDoor.Business\StoreToDoor.Business.csproj", "{0B99B659-BC32-4572-8E45-DB806E9B3F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreToDoor.DAL", "StoreToDoor.DAL\StoreToDoor.DAL.csproj", "{7A919D99-F81E-4587-83EF-3707AF8929CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreToDoor.DAL", "StoreToDoor.DAL\StoreToDoor.DAL.csproj", "{7A919D99-F81E-4587-83EF-3707AF8929CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreToDoor.Model", "StoreToDoor.Model\StoreToDoor.Model.csproj", "{8EBB877B-F430-43EA-87CB-54F6F476F55C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreToDoor.Model", "StoreToDoor.Model\StoreToDoor.Model.csproj", "{8EBB877B-F430-43EA-87CB-54F6F476F55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{195B512E-E07B-4BCA-A601-C4A2F5801956}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseScript.sql = DatabaseScript.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
