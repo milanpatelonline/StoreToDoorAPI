@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreToDoor.DAL\StoreToDoor.DAL.csproj" />
+    <ProjectReference Include="..\StoreToDoor.Model\StoreToDoor.Model.csproj" />
+  </ItemGroup>
+
+</Project>
